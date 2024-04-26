@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+body{
+    background-color: #328749f4;
+}
+h2{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+.form{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 4rem;
+    
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;;
+
+}
+.form input{
+    margin: .5rem .5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(4, 230, 0);
+}
+.form #btn{
+    background-color: rgb(85, 72, 72);
+    color: rgb(245, 236, 236);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.information{
+    width: 90%;
+    margin: 1rem;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(152, 202, 201);
+    padding: 2rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid rgb(73, 72, 72);
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 223);
+    padding: 1.5rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.nav{
+    margin-bottom: 1rem;
+}
+
+
+.btn{
+    padding: .5rem 1rem;
+    background-color: rgb(152, 202, 201);
+    border-radius: 5px;
+    color: rgb(36, 27, 27);
+    font-size: 1rem;
+    font-weight: 100%;
+    cursor: pointer;
+}
+.plus , .minus{
+    padding: .5rem 1rem;
+    background-color: rgb(152, 202, 201);
+    border-radius: .3rem;
+    color: rgb(34, 32, 32);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.main_scoreboard-btn-container{
+    margin: 1em;
+    display: flex;
+    gap: .5em;
+}
+
+
+.main_scoreboard-wrapper{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 1em;
+}
+  
+
+.main_player-name{
+    font-weight: 400;
+}
+
+.main_time-stamp{
+    color: #857e7e;
+    font-size: .8em;
+}
+
+
+
+
+
+@media (min-width:35.25em){
+    .main_title{
+        font-size: 2.5rem;
+        font-weight: 500;
+        font-variant: small-caps;
+    }
+
+    form{
+        display: flex;
+    }
+
+    .main_scoreboard{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    input{
+        width: 10em;
+    }
+
+}
